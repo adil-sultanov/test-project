@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get('/')
 async def root():
-    return 'hello world'
+    return 'test'
 
 @app.get('/aida')
 async def love():
